@@ -4,11 +4,13 @@
 ## Prerequisits
 
 Run command to install packages
+
     ```
     python -m pip install -r requirements.txt
     ```
     
 The cdk diff command compares the current version of a stack defined in your app with the already-deployed version, or with a saved AWS CloudFormation template, and displays a list of changes.
+
     ```
     cdk diff
     ```
