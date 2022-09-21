@@ -2,26 +2,23 @@
 # Welcome to your CDK Python project APIGateway multi stage deployment solution!
 
 ## Prerequisits
-<ol>
-    <li>Run command to install packages </li>
-    
+
+Run command to install packages
     ```
     python -m pip install -r requirements.txt
     ```
     
-    <li>
-        The cdk diff command compares the current version of a stack defined in your app with the already-deployed version, or with a saved AWS CloudFormation template, and displays a list of changes.
-    </li>
+The cdk diff command compares the current version of a stack defined in your app with the already-deployed version, or with a saved AWS CloudFormation template, and displays a list of changes.
     ```
     cdk diff
     ```
-    <li>
-    Deploy the stack
-    </li>
+
+Deploy the stack
+
     ```
     cdk deploy
     ```
-</ol>
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
