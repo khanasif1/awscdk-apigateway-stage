@@ -6,7 +6,7 @@
 Run command to install packages
 
     ```
-    python -m pip install -r requirements.txt
+    $python -m pip install -r requirements.txt
     ```
     
 The cdk diff command compares the current version of a stack defined in your app with the already-deployed version, or with a saved AWS CloudFormation template, and displays a list of changes.
@@ -34,7 +34,7 @@ you can create the virtualenv manually.
 To manually create a virtualenv on MacOS and Linux:
 
 ```
-$ python3 -m venv .venv
+ python3 -m venv .venv
 ```
 
 After the init process completes and the virtualenv is created, you can use the following
